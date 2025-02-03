@@ -1,0 +1,103 @@
+{
+    "terminal.integrated.enablePersistentSessions": false,
+    "google-translate.firstLanguage": "es",
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "json.schemas": [],
+    "files.defaultLanguage": "powershell",
+    "psi-header.config": {
+        "forceToTop": true,
+        "blankLinesAfter": 4,
+        "license": "Custom"
+    },
+    "psi-header.license-text": [
+        "Por la presente, se otorga el permiso, de forma gratuita, a cualquier persona que obtenga una copia",
+        "\t\tde este software y archivos de documentación asociados (el software), para tratar",
+        "\t\ten el software sin restricción, incluidos los derechos de los derechos",
+        "\t\tpara usar copiar, modificar, fusionar, publicar, distribuir sublicense y /o vender",
+        "\t\tcopias del software y para permitir a las personas a quienes es el software",
+        "\t\tproporcionado para hacerlo, sujeto a las siguientes condiciones:",
+        "",
+        "\t\tEl aviso de derechos de autor anterior y este aviso de permiso se incluirán en todos",
+        "\t\tcopias o porciones sustanciales del software.",
+        "",
+        "\t\tEL SOFTWARE SE PROPORCIONA TAL CUAL, SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O",
+        "\t\tIMPLÍCITA, INCLUYENDO PERO SIN LIMITARSE A LAS GARANTÍAS DE COMERCIABILIDAD",
+        "\t\tADECUACIÓN PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS",
+        "\t\tAUTORES O TITULARES DE LOS DERECHOS DE AUTOR SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑOS U OTROS",
+        "\t\tRESPONSABILIDAD, YA SEA EN UNA ACCIÓN CONTRACTUAL, AGRAVIO O DE OTRO MODO, QUE SURJA DE",
+        "\t\tDE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTROS TRATOS EN EL tSOFTWARE.",
+    ],
+    "psi-header.variables": [
+        [
+            "company",
+            "Campos"
+        ],
+        [
+            "author",
+            "Carlos Campos"
+        ],
+        [
+            "authoremail",
+            "Campos@domoalas.com"
+        ],
+        [
+            "website",
+            "https://www.domoalas.com"
+        ],
+        [
+            "initials",
+            "Campos"
+        ]
+    ],
+    "psi-header.lang-config": [
+        {
+            "language": "powershell",
+            "begin": "<#",
+            "end": "#>",
+            "prefix": "",
+        }
+    ],
+    "psi-header.templates": [
+        {
+            "language": "*",
+            "template": [
+                "\t.SYNOPSIS",
+                "\t\t<Descripción general del script>",
+                "",
+                "\t.DESCRIPTION",
+                "\t\t<Descripción del script>",
+                "",
+                "\t.PARAMETER <Parameter_Name>",
+                "\t\t<Descripción de parámetros de entrada requeridos. Repita este atributo si es necesario>",
+                "",
+                "\t.EXAMPLE",
+                "\t\t<El ejemplo va aquí. Repita este atributo para más de un ejemplo>",
+                "\t\tEjecuta con privilegios de administrador o implementación de SCCM",
+                "\t\tpowershell.exe -executionpolicy bypass -file '<<filename>>' -SystemInstall",
+                "",
+                //"\t.LINK",
+                //"\t\t<<website>>",
+                //"",
+                "\t.NOTES",
+                "\t\t===========================================================================",
+                "\t\tCreated By:\t\t<<author>>",
+                "\t\tCreated Date:\t<<filecreated('d/M/YYYY, h:mm A')>>",
+                "\t\tVersion:\t\t0.1",
+                "\t\tFile:\t\t\t<<filename>>",
+                "\t\tCopyright (c)<<year>> <<company>>",
+                "\t\t===========================================================================",
+                "",
+                "\t.LICENSE",
+                "\t\t<<licensetext>>",
+            ],
+            "changeLogCaption": "HISTORY:",
+            "changeLogHeaderLineCount": 2,
+            "changeLogEntryTemplate": [
+                "<<dateformat('YYYY-MM-DD-hh-mm-a')>>\t <<initials>>\t"
+            ]
+        },
+    ]
+}
