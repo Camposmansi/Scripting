@@ -1,3 +1,3 @@
 # 📌 Aqui estaran todos mis Scripts que haga desde ahora
 
-### 🚀 Visual Studio Code - Plugins y Herramientas
+### 🚀 VisualStudio_Extensions / Visual Studio Code - Plugins y Herramientas
