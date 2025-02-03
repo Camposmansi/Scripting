@@ -1,6 +1,6 @@
 # 📌 Visual Studio Code - Plugins y Herramientas
 
-## 🚀 Lista de Plugins Esenciales para Visual Studio Code
+## 🚀 Lista de Plugins Esenciales para Visual Studio Code con PowerShell
 
 ### 🌍 Google Translate - `hancel.google-translate`
 📌 **Función:** Traducción integrada en VS Code.
