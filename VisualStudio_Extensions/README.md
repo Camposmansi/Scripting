@@ -1,7 +1,7 @@
 # VisualCode
 Aqui pondre todo lo que necesito de Visual code
 
-🚀 Plugins de Visual Studio Code
+<em>🚀 Plugins de Visual Studio Code</em>
 
 🌍 hancel.google-translate
 📌 Función: Traducción integrada en VS Code.
